@@ -1,0 +1,26 @@
+:root {
+  --font-family: "Poppins", sans-serif;
+  --transition: .2s all ease-out;
+
+  // COLORS:
+
+  --white: #fff;
+  --black: #000;
+
+  --bg: #0c0f14;
+  --elements-bg: #141921;
+
+  --accent-color-1: #d17842;
+  --accent-color-2: #dc3535;
+
+  --light-gray: #aeaeae;
+  --gray: #52555a;
+  --dark-gray: #252a32;
+
+  --icon-border: 1px solid #21262e;
+  --icon-c: rgba(255, 255, 255, 0.18);
+
+  --transparent: rgba(0, 0, 0, 0.5);
+  
+  --liniar-gradient: linear-gradient(137deg, #21262e 0%, #0c0f14 100%);
+}

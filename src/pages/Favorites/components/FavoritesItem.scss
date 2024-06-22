@@ -1,0 +1,10 @@
+.favorite__items {
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+  }
+  
+  .favorite__items > :last-child {
+    height: 20%;
+  }
+  

@@ -1,0 +1,115 @@
+.multiple-cb {
+  margin-top: 16rem;
+  overflow-x: auto; /* Прокрутка горизонтального контенту */
+  white-space: nowrap; /* Вимкнення перенесення тексту */
+  &__item {
+    background: var(--liniar-gradient);
+    padding: 9rem 16rem 15rem 12rem;
+    border-radius: 23rem;
+    min-width: 330rem;
+  }
+  &__preview {
+    display: flex;
+    gap: 22rem;
+    margin-bottom: 10rem;
+  }
+  &__info {
+  }
+  &__title {
+    font-weight: 400;
+    font-size: 16rem;
+    line-height: 125%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  &__desc {
+    font-weight: 400;
+    font-size: 10rem;
+    line-height: 200%;
+    color: var(--light-gray);
+    margin-bottom: 10rem;
+  }
+
+  &__tag {
+    font-weight: 500;
+    font-size: 10rem;
+    line-height: 200%;
+    color: var(--light-gray);
+
+    padding: 10rem 16rem;
+    border-radius: 10rem;
+    background: var(--elements-bg);
+    min-width: 118rem;
+  }
+  &__size {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+  }
+}
+
+.size__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 17rem;
+}
+
+.size__tag-2 {
+  font-weight: 500;
+  font-size: 10rem;
+  line-height: 200%;
+  color: var(--light-gray);
+
+  padding: 7rem 18rem;
+  background: var(--bg);
+
+  border-radius: 10rem;
+  display: inline-block;
+  text-align: center;
+  min-width: 72rem;
+}
+.size__price {
+  font-weight: 600;
+  font-size: 16rem;
+  line-height: 125%;
+  min-width: 49rem;
+
+  span {
+    color: var(--accent-color-1);
+  }
+}
+.size__btn {
+  outline: 0;
+  border: 0;
+}
+.btn-minus {
+}
+.btn-plus {
+}
+.size__count {
+  font-weight: 600;
+  font-size: 16rem;
+  line-height: 125%;
+
+  background: var(--bg);
+  border: 1px solid var(--accent-color-1);
+  border-radius: 7rem;
+
+  width: 50rem;
+  height: 30rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-minus {
+  font-size: 10rem;
+
+  &::before {
+    padding: 10.5rem;
+    background: var(--accent-color-1);
+    border-radius: 7rem;
+  }
+}

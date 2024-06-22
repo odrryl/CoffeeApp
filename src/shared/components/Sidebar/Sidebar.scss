@@ -1,0 +1,22 @@
+.sidebar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 22rem 35rem;
+
+  .sidebar-link {
+    font-size: 24rem;
+
+    &__icon::before {
+      transition: var(--transition);
+      color: var(--icon-c);
+    }
+
+    &.active {
+      .sidebar-link__icon::before {
+        color: var(--accent-color-1);
+      }
+    }
+  }
+}

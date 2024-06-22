@@ -1,0 +1,20 @@
+.notfound {
+  text-align: center;
+  margin-top: 50rem;
+
+  &__logo {
+    width: 140rem;
+    margin-bottom: 25rem;
+  }
+  &__title {
+    margin-bottom: 25rem;
+  }
+
+  &__desc {
+    margin-bottom: 5rem;
+    span {
+      color: var(--accent-color-1);
+      font-weight: 600;
+    }
+  }
+}

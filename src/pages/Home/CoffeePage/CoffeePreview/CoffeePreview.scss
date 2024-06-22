@@ -1,0 +1,133 @@
+.c-preview {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  
+
+  &__icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 20rem;
+  }
+
+  &__group {
+    margin-top: 255rem;
+    background: var(--transparent);
+    border-radius: 25rem 25rem 0 0;
+    padding: 19rem 20rem 15rem 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__info {
+    &-title {
+      font-weight: 600;
+      font-size: 20rem;
+      line-height: 100%;
+      margin-bottom: 2rem;
+    }
+
+    &-origin {
+      font-weight: 400;
+      font-size: 12rem;
+      line-height: 167%;
+      color: var(--light-gray);
+      margin-bottom: 25.43rem;
+    }
+
+    &-rating {
+      display: flex;
+      align-items: center;
+      gap: 4rem;
+      font-family: var(--font-family);
+      font-weight: 600;
+      font-size: 16rem;
+      line-height: 125%;
+      & span {
+        font-weight: 400;
+        font-size: 10rem;
+        line-height: 200%;
+        color: var(--light-gray);
+      }
+    }
+  }
+
+  &__tags {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13rem;
+    padding: 5rem;
+    flex-shrink: 0;
+    overflow-x: auto;
+    &-group {
+      display: flex;
+      gap: 21rem;
+      align-items: center;
+    }
+  }
+}
+
+.c-tag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50rem;
+  height: 50rem;
+  font-weight: 500;
+  font-size: 10rem;
+  line-height: 200%;
+  color: var(--light-gray);
+
+  border-radius: 10rem;
+  background: var(--elements-bg);
+  padding: 7rem 12rem 5rem 12rem;
+
+  &-categorie {
+    padding: 12rem 22rem;
+    font-weight: 500;
+    font-size: 10rem;
+    line-height: 200%;
+    color: var(--light-gray);
+    border-radius: 10rem;
+    background: var(--elements-bg);
+    min-width: 131rem;
+  }
+}
+
+.back,
+.favorites {
+  cursor: pointer;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 10rem;
+  border: var(--icon-border);
+  background: var(--liniar-gradient);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-water::before {
+  color: var(--accent-color-1);
+  font-size: 20rem;
+}
+
+.icon-coffee_2::before {
+  color: var(--accent-color-1);
+  font-size: 30rem;
+}
+
+.icon-heart::before {
+  color: var(--accent-color-2);
+}
+.icon-chevron-left::before {
+  color: var(--gray);
+}
+
+.icon-star::before {
+  font-size: 20rem;
+  color: var(--accent-color-1);
+}

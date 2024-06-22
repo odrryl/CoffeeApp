@@ -1,0 +1,83 @@
+.cb-order {
+  margin-top: 16rem;
+
+  display: flex;
+  align-items: center;
+
+  background: var(--liniar-gradient);
+  border-radius: 23rem;
+  padding: 12rem 22.56rem 16rem 12rem;
+  gap: 12rem;
+
+  overflow-x: auto;
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: 15rem;
+    line-height: 133%;
+  }
+  &__desc {
+    font-weight: 400;
+    font-size: 9rem;
+    line-height: 222%;
+    color: var(--light-gray);
+    margin-bottom: 8rem;
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
+    gap: 22rem;
+    margin-bottom: 8rem;
+  }
+
+  &__size {
+    font-weight: 500;
+    font-size: 10rem;
+    line-height: 200%;
+    color: var(--light-gray);
+
+    padding: 7rem 24rem;
+    background: var(--bg);
+    border-radius: 10rem;
+  }
+
+  &__price {
+    font-weight: 600;
+    font-size: 20rem;
+    line-height: 100%;
+    min-width: 61rem;
+
+    span {
+      color: var(--accent-color-1);
+    }
+  }
+
+  &__count {
+    display: flex;
+    align-items: center;
+    gap: 25rem;
+  }
+
+  &__item {
+    font-weight: 600;
+    font-size: 16rem;
+    line-height: 125%;
+
+    background: var(--bg);
+    border: 1px solid var(--accent-color-1);
+
+    border-radius: 7rem;
+    width: 50rem;
+    height: 30rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
