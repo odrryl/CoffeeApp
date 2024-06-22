@@ -10,7 +10,7 @@ export const CoffeeOrder = () => {
     desc: "With Steamed Milk",
     size: "M",
     price: "6.20",
-    count: 1, // Значення лічильника тепер числове
+    count: 1, 
   };
 
   const [count, setCount] = useState(coffee_order.count);

@@ -3,7 +3,6 @@
     margin-top: 32rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 40rem;
 
     overflow-x: auto;
@@ -45,8 +44,8 @@
     line-height: 125%;
     color: var(--white);
 
-    padding: 20rem 104rem;
-    min-width: 240rem;
+    padding: 20rem 80rem;
+    min-width: 200rem;
 
     border-radius: 20rem;
     background-color: var(--accent-color-1);

@@ -3,39 +3,42 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 70vh;
-
+  min-height: 70vh;
   padding: 16rem;
   border-radius: 23rem;
   background: var(--liniar-gradient);
 
   &__logo {
-    width: 100rem;
+    width: 50%;
+    max-width: 170rem;
+    height: auto;
     margin-bottom: 35rem;
   }
 
   &__form {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    max-width: 400px;
   }
 
   &__title {
+
     font-weight: 600;
     font-size: 28rem;
     line-height: 129%;
     text-align: center;
     margin-bottom: 12rem;
   }
+
   &__btn {
     border: 0;
     outline: 0;
-
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 16rem;
-    line-height: 125%;
+    line-height: 1.25;
     color: var(--white);
-
     border-radius: 20rem;
     background: var(--accent-color-1);
     padding: 12rem 24rem;
@@ -47,15 +50,11 @@
   outline: 0;
   border: 0;
   background: var(--white);
-  border: none;
-  padding: 0.75rem 1rem;
-  margin-bottom: 1rem;
-  border-radius: 8px;
+  padding: 10rem 18rem;
   margin-bottom: 15rem;
-
+  border-radius: 8rem;
   text-align: center;
 
-  padding: 10rem 18rem;
 }
 
 .checkbox-label {
