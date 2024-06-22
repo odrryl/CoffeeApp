@@ -2,6 +2,7 @@ import "./CoffeeBeansPreview.scss";
 import { useNavigate } from "react-router-dom";
 import { BackIcon } from "../../../../shared/ui/BackIcon/BackIcon";
 import { FavoritesIcon } from "../../../../shared/ui/FavoritesIcon/FavoritesIcon";
+import BG from '/assets/img/home/coffee_beans-bg.png';
 
 export const CoffeeBeansPreview = () => {
   const navigate = useNavigate();
@@ -14,10 +15,8 @@ export const CoffeeBeansPreview = () => {
     navigate("/favorites");
   };
 
-  const backgroundImageUrl = "/src/assets/img/home/coffee_beans-bg.png";
-
   const CoffeeBeansBG = {
-    backgroundImage: `url(${backgroundImageUrl})`,
+    backgroundImage: `url(${BG})`,
   };
 
   const cb_preview = {

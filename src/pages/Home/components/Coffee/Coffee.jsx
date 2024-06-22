@@ -1,25 +1,27 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import Coffee1 from '/assets/img/home/coffee-1.png';
+import Coffee2 from '/assets/img/home/coffee-2.png';
 
 export const Coffee = () => {
   const [price] = useState(4.2);
 
   const coffeeData = [
     {
-      image: "/src/assets/img/home/coffee-1.png",
+      image: Coffee1,
       title: "Cappuccino",
       desc: "With Steamed Milk",
       id: 1,
     },
     {
-      image: "/src/assets/img/home/coffee-2.png",
+      image: Coffee2,
       title: "Cappuccino",
       desc: "With Foam",
       id: 2,
     },
     {
-      image: "/src/assets/img/home/coffee-1.png",
+      image: Coffee1,
       title: "Cappuccino",
       desc: "With Steamed Milk",
       id: 3,

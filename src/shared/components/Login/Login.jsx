@@ -1,11 +1,12 @@
 import "/src/shared/components/Login/Login.scss";
 import { Link } from "react-router-dom";
+import Logo from '/assets/img/logo/logo.png';
 
 export const Login = () => {
   return (
     <div className="login">
       <img
-        src="/src/assets/img/logo/logo.png"
+        src= {Logo}
         alt="logo"
         className="login__logo"
       />

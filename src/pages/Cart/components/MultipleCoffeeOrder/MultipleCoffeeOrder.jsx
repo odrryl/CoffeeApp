@@ -1,10 +1,11 @@
 import "./MultipleCoffeeOrder.scss";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Cappuccino1 from '/assets/img/cart/cappuccino-1.png';
 
 export const MultipleCoffeeOrder = () => {
   const multiple_c = {
-    image: "/src/assets/img/cart/cappuccino-1.png",
+    image: Cappuccino1,
     title: "Cappuccino",
     desc: "With Steamed Milk",
     tag: "Medium Roasted",

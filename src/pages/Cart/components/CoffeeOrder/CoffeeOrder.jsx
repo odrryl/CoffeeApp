@@ -1,10 +1,11 @@
 import "./CoffeeOrder.scss";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Cappuccino2 from '/assets/img/cart/cappuccino-2.png';
 
 export const CoffeeOrder = () => {
   const coffee_order = {
-    image: "/src/assets/img/cart/cappuccino-2.png",
+    image: Cappuccino2,
     title: "Cappuccino",
     desc: "With Steamed Milk",
     size: "M",

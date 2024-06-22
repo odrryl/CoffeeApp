@@ -2,9 +2,11 @@
     width: 5rem;
     height: 5rem;
     background-color: rgba(255, 255, 255, 0);
+    display: none;
   }
   * ::-webkit-scrollbar-thumb {
     border-radius: 5rem;
     background-color: #585454;
+    display: none;
   }
   

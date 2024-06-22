@@ -1,10 +1,11 @@
 import "./CoffeeBeansOrder.scss";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import CoffeeBeans1 from '/assets/img/cart/coffee-beans-1.png';
 
 export const CoffeeBeansOrder = () => {
   const cb_order = {
-    image: "/src/assets/img/cart/coffee-beans-1.png",
+    image: CoffeeBeans1,
     title: "Robusta Beans",
     desc: "From Africa",
     size: "250gm",

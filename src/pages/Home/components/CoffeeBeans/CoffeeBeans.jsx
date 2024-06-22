@@ -1,25 +1,27 @@
 import { useState } from "react";
 import "./CoffeeBeans.scss";
 import { Link } from "react-router-dom";
+import Beans1 from '/assets/img/home/coffee_beans-1.png';
+import Beans2 from '/assets/img/home/coffee_beans-2.png';
 
 export const CoffeeBeans = () => {
   const [price] = useState(4.2);
 
   const coffeeData = [
     {
-      image: "/src/assets/img/home/coffee_beans-1.png",
+      image: Beans1,
       title: "Robusta Beans",
       desc: "Medium Roasted",
       id: 4,
     },
     {
-      image: "/src/assets/img/home/coffee_beans-2.png",
+      image: Beans2,
       title: "Robusta Beans",
       desc: "Medium Roasted",
       id: 5,
     },
     {
-      image: "/src/assets/img/home/coffee_beans-1.png",
+      image: Beans1,
       title: "Robusta Beans",
       desc: "Medium Roasted",
       id: 6,

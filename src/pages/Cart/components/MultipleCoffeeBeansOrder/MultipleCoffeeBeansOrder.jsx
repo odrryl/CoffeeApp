@@ -1,10 +1,11 @@
 import "./MultipleCoffeeBeansOrder.scss";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import CoffeeBeans2 from '/assets/img/cart/coffee-beans-2.png';
 
 export const MultipleCoffeeBeansOrder = () => {
   const multiple_cb = {
-    image: "/src/assets/img/cart/coffee-beans-2.png",
+    image: CoffeeBeans2,
     title: "Liberica Coffee Beans",
     desc: "With Steamed Milk",
     tag: "Medium Roasted",
